@@ -1,0 +1,8 @@
+<templateSet group="PHP">
+  <template name="test" value="/** @test */&#10;public function $FUNC_NAME$() &#10;{&#10;    $END$&#10;}" description="Add a new test case method" toReformat="true" toShortenFQNames="true">
+    <variable name="FUNC_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Class Member" value="true" />
+    </context>
+  </template>
+</templateSet>

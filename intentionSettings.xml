@@ -1,0 +1,6 @@
+<application>
+  <component name="IntentionManagerSettings">
+    <ignoreAction name="PHP/Convert array to traditional syntax" />
+    <ignoreAction name="PHP/Convert namespace to braced" />
+  </component>
+</application>

@@ -1,0 +1,38 @@
+<application>
+  <component name="DefaultFont">
+    <option name="FONT_SIZE" value="17" />
+    <option name="FONT_FAMILY" value="Dank Mono" />
+    <option name="LINE_SPACING" value="1.7" />
+    <option name="USE_LIGATURES" value="true" />
+    <option name="SECONDARY_FONT_FAMILY" value="Operator Mono" />
+  </component>
+  <component name="EditorSettings">
+    <option name="languageBreadcrumbsMap">
+      <map>
+        <entry key="CSS" value="false" />
+        <entry key="HTML" value="false" />
+        <entry key="Haml" value="true" />
+        <entry key="JSON" value="false" />
+        <entry key="JavaScript" value="true" />
+        <entry key="LESS" value="true" />
+        <entry key="PHP" value="true" />
+        <entry key="SASS" value="false" />
+        <entry key="SCSS" value="false" />
+        <entry key="TypeScript" value="false" />
+        <entry key="XHTML" value="false" />
+        <entry key="XML" value="false" />
+        <entry key="yaml" value="false" />
+      </map>
+    </option>
+    <option name="IS_ENSURE_NEWLINE_AT_EOF" value="true" />
+    <option name="SHOW_QUICK_DOC_ON_MOUSE_OVER_ELEMENT" value="true" />
+    <option name="IS_FOLDING_OUTLINE_SHOWN" value="false" />
+    <option name="IS_INDENT_GUIDES_SHOWN" value="false" />
+    <option name="SHOW_PARAMETER_NAME_HINTS" value="false" />
+  </component>
+  <component name="TodoConfiguration">
+    <pattern pattern="\btodo\b.*" />
+    <pattern icon="important" pattern="\bfixme\b.*" />
+    <pattern pattern="\brefactor\b.*" />
+  </component>
+</application>
