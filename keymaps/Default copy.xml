@@ -5,9 +5,6 @@
     <keyboard-shortcut first-keystroke="alt f12" />
     <keyboard-shortcut first-keystroke="meta t" />
   </action>
-  <action id="Annotate">
-    <keyboard-shortcut first-keystroke="shift meta comma" />
-  </action>
   <action id="Arrangement.Rule.Add">
     <keyboard-shortcut first-keystroke="ctrl enter" />
   </action>
@@ -42,13 +39,7 @@
     <keyboard-shortcut first-keystroke="tab" />
     <keyboard-shortcut first-keystroke="enter" />
   </action>
-  <action id="EditorDecreaseFontSize">
-    <keyboard-shortcut first-keystroke="alt minus" />
-  </action>
   <action id="EditorDuplicate" />
-  <action id="EditorIncreaseFontSize">
-    <keyboard-shortcut first-keystroke="alt equals" />
-  </action>
   <action id="EditorMoveToPageBottom">
     <keyboard-shortcut first-keystroke="meta down" />
   </action>
@@ -57,7 +48,7 @@
   </action>
   <action id="EditorToggleCase" />
   <action id="EvaluateExpression">
-    <keyboard-shortcut first-keystroke="meta g" />
+    <keyboard-shortcut first-keystroke="ctrl alt e" />
   </action>
   <action id="FileChooser.GotoDesktop" />
   <action id="FileChooser.GotoHome" />
@@ -68,8 +59,6 @@
   <action id="FileStructurePopup">
     <keyboard-shortcut first-keystroke="meta r" />
   </action>
-  <action id="FindNext" />
-  <action id="FindPrevious" />
   <action id="FindUsages">
     <keyboard-shortcut first-keystroke="meta u" />
   </action>
@@ -105,13 +94,6 @@
   <action id="MoveLineUp">
     <keyboard-shortcut first-keystroke="ctrl meta up" />
   </action>
-  <action id="MoveTabDown">
-    <keyboard-shortcut first-keystroke="shift ctrl meta down" />
-  </action>
-  <action id="MoveTabRight">
-    <keyboard-shortcut first-keystroke="shift ctrl meta right" />
-  </action>
-  <action id="NextOccurence" />
   <action id="NextSplitter">
     <keyboard-shortcut first-keystroke="meta alt right" />
   </action>
@@ -123,10 +105,11 @@
     <keyboard-shortcut first-keystroke="meta alt left" />
   </action>
   <action id="QuickEvaluateExpression">
-    <keyboard-shortcut first-keystroke="shift meta g" />
+    <keyboard-shortcut first-keystroke="shift ctrl alt e" />
   </action>
   <action id="Refactorings.QuickListPopupAction">
-    <keyboard-shortcut first-keystroke="shift ctrl r" />
+    <keyboard-shortcut first-keystroke="ctrl t" />
+    <keyboard-shortcut first-keystroke="ctrl r" />
   </action>
   <action id="Refresh" />
   <action id="RemoteHost.NewRemoteItem">
@@ -134,7 +117,6 @@
   </action>
   <action id="RenameElement">
     <keyboard-shortcut first-keystroke="shift alt r" />
-    <keyboard-shortcut first-keystroke="ctrl r" />
   </action>
   <action id="Replace" />
   <action id="Rerun" />
@@ -142,8 +124,6 @@
     <keyboard-shortcut first-keystroke="ctrl meta r" />
   </action>
   <action id="Run" />
-  <action id="RunClass" />
-  <action id="RunDashboard.Run" />
   <action id="RunJsbtTask">
     <keyboard-shortcut first-keystroke="meta 0" />
   </action>
