@@ -3,12 +3,11 @@
     <extensionMap>
       <mapping pattern="UserSubscribed" type="PHP" />
       <mapping pattern="MediaListRequest" type="PHP" />
+      <mapping pattern=".env.testing" type="PLAIN_TEXT" />
       <mapping pattern=".env.pipelines" type="PLAIN_TEXT" />
       <mapping pattern="Dockerfile" type="PLAIN_TEXT" />
       <mapping pattern=".php_cs" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
-      <mapping pattern=".env.testing" type="PLAIN_TEXT" />
-      <mapping ext="ini" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
