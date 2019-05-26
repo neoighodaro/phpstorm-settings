@@ -5,4 +5,10 @@
       <option name="PHP Class Member" value="true" />
     </context>
   </template>
+  <template name="noinspect-undefined-methods" value="/** @noinspection PhpUndefinedMethodInspection */" description="Do not inspect undefined methods" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+      <option name="PHP Comment" value="false" />
+    </context>
+  </template>
 </templateSet>
