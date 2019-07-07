@@ -125,6 +125,10 @@
   <action id="QuickEvaluateExpression">
     <keyboard-shortcut first-keystroke="shift meta g" />
   </action>
+  <action id="RecentChangedFiles">
+    <keyboard-shortcut first-keystroke="meta e" />
+  </action>
+  <action id="RecentFiles" />
   <action id="Refactorings.QuickListPopupAction">
     <keyboard-shortcut first-keystroke="shift ctrl r" />
   </action>
