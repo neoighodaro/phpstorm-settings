@@ -4,13 +4,13 @@
     <property name="created">2018-12-31T23:56:38</property>
     <property name="ide">PhpStorm</property>
     <property name="ideVersion">2018.3.2.0.0</property>
-    <property name="modified">2020-01-26T10:06:04</property>
+    <property name="modified">2020-01-26T11:46:41</property>
     <property name="originalScheme">Material Oceanic</property>
   </metaInfo>
   <option name="LINE_SPACING" value="2.0" />
   <font>
     <option name="EDITOR_FONT_NAME" value="Cascadia Code" />
-    <option name="EDITOR_FONT_SIZE" value="18" />
+    <option name="EDITOR_FONT_SIZE" value="17" />
   </font>
   <font>
     <option name="EDITOR_FONT_NAME" value="Dank Mono" />
