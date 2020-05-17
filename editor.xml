@@ -4,7 +4,8 @@
     <option name="COLLAPSE_FILE_HEADER" value="false" />
   </component>
   <component name="DefaultFont">
-    <option name="FONT_SIZE" value="18" />
+    <option name="FONT_SIZE" value="17" />
+    <option name="FONT_FAMILY" value="JetBrains Mono" />
     <option name="LINE_SPACING" value="2.0" />
     <option name="USE_LIGATURES" value="true" />
     <option name="SECONDARY_FONT_FAMILY" value="Operator Mono" />
