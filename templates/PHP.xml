@@ -1,8 +1,5 @@
 <templateSet group="PHP">
-  <template name="test" value="/**&#10; * Scenario: $SCENARIO$&#10; * When: $WHEN$&#10; * Then: $THEN$&#10; *&#10; * @return void&#10; */&#10;public function test_$FUNC_NAME$() &#10;{&#10;    $END$&#10;}" description="Add a new test case method" toReformat="true" toShortenFQNames="true">
-    <variable name="SCENARIO" expression="" defaultValue="Description" alwaysStopAt="true" />
-    <variable name="WHEN" expression="" defaultValue="Trigger" alwaysStopAt="true" />
-    <variable name="THEN" expression="" defaultValue="Desired result" alwaysStopAt="true" />
+  <template name="test" value="/** @test */&#10;public function $FUNC_NAME$() &#10;{&#10;    $END$&#10;}" description="Add a new test case method" toReformat="true" toShortenFQNames="true">
     <variable name="FUNC_NAME" expression="" defaultValue="sample" alwaysStopAt="true" />
     <context>
       <option name="PHP Class Member" value="true" />
@@ -12,6 +9,15 @@
     <context>
       <option name="PHP" value="true" />
       <option name="PHP Comment" value="false" />
+    </context>
+  </template>
+  <template name="testsc" value="/**&#10; * Scenario: $SCENARIO$&#10; * When: $WHEN$&#10; * Then: $THEN$&#10; *&#10; * @return void&#10; */&#10;public function test_$FUNC_NAME$() &#10;{&#10;    $END$&#10;}" description="Test with scenario" toReformat="false" toShortenFQNames="true">
+    <variable name="SCENARIO" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="WHEN" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="THEN" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="FUNC_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Class Member" value="true" />
     </context>
   </template>
 </templateSet>
