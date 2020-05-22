@@ -129,10 +129,6 @@
   <action id="QuickEvaluateExpression">
     <keyboard-shortcut first-keystroke="shift meta g" />
   </action>
-  <action id="RecentChangedFiles">
-    <keyboard-shortcut first-keystroke="meta e" />
-  </action>
-  <action id="RecentFiles" />
   <action id="Refactorings.QuickListPopupAction">
     <keyboard-shortcut first-keystroke="shift ctrl r" />
   </action>
@@ -181,6 +177,8 @@
     <keyboard-shortcut first-keystroke="meta 2" />
     <keyboard-shortcut first-keystroke="ctrl v" />
   </action>
+  <action id="SwitcherIterateItems" />
+  <action id="SwitcherRecentEditedChangedToggleCheckBox" />
   <action id="TypeHierarchy" />
   <action id="TypeHierarchyBase.BaseOnThisType" />
   <action id="Vcs.EditSource">
@@ -188,6 +186,9 @@
   </action>
   <action id="Vcs.Log.Refresh" />
   <action id="Vcs.QuickListPopupAction" />
+  <action id="Vcs.ShowMessageHistory">
+    <keyboard-shortcut first-keystroke="ctrl m" />
+  </action>
   <action id="Vcs.UpdateProject" />
   <action id="XDebugger.JumpToSource">
     <keyboard-shortcut first-keystroke="f4" />
