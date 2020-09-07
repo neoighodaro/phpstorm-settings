@@ -101,7 +101,7 @@
     <keyboard-shortcut first-keystroke="alt r" />
   </action>
   <action id="Macro.Format and Save">
-    <keyboard-shortcut first-keystroke="meta s" />
+    <keyboard-shortcut first-keystroke="meta alt s" />
   </action>
   <action id="MoveLineDown">
     <keyboard-shortcut first-keystroke="ctrl meta down" />
