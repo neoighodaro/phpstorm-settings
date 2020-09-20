@@ -1,5 +1,16 @@
 <application>
   <component name="libraryTable">
+    <library name="inter" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_rsms.me_inter_inter.css" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_rsms.me_inter_inter.css" />
+      </CLASSES>
+      <SOURCES />
+    </library>
     <library name="tailwindcss" type="javaScript">
       <properties>
         <sourceFilesUrls>
