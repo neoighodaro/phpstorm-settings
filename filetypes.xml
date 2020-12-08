@@ -9,6 +9,7 @@
       <mapping pattern=".php_cs" type="PLAIN_TEXT" />
       <mapping pattern=".env.pipelines" type="PLAIN_TEXT" />
       <mapping ext="neon" type="PLAIN_TEXT" />
+      <mapping ext="log" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
