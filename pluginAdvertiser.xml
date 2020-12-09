@@ -974,6 +974,15 @@
             </plugin>
           </value>
         </entry>
+        <entry key="*.twig">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.jetbrains.twig" />
+              <option name="myPluginName" value="Twig" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
         <entry key="*.txt">
           <value>
             <plugin>
