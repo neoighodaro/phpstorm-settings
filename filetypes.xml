@@ -9,6 +9,9 @@
       <mapping pattern=".php_cs" type="PLAIN_TEXT" />
       <mapping pattern=".env.pipelines" type="PLAIN_TEXT" />
       <mapping ext="log" type="PLAIN_TEXT" />
+      <removed_mapping ext="csv" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="xls" approved="true" type="Native" />
+      <removed_mapping ext="xlsx" approved="true" type="Native" />
     </extensionMap>
   </component>
 </application>
